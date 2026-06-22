@@ -1,0 +1,8 @@
+{
+  "name": "Inam Ali Soomro Portfolio",
+  "description": "Interactive 3D portfolio of Inam Ali Soomro, Full Stack Developer, Founder & CEO @ Inbyo Tech.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
