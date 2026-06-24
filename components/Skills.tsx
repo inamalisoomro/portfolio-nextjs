@@ -13,7 +13,7 @@ export default function Skills() {
         { name: 'Next.js 14 / 15', level: 92 },
         { name: 'TypeScript', level: 94 },
         { name: 'Tailwind CSS (v4)', level: 96 },
-        { name: 'Framer Motion / GSAP', level: 88 },
+        { name: 'Bootstrap', level: 88 },
       ]
     },
     {
@@ -21,18 +21,18 @@ export default function Skills() {
       skills: [
         { name: 'Node.js / Express', level: 92 },
         { name: 'PostgreSQL / SQL', level: 86 },
-        { name: 'Firestore / Firebase', level: 90 },
-        { name: 'Drizzle ORM / Prisma', level: 88 },
-        { name: 'REST & GraphQL APIs', level: 91 },
+        { name: 'Firebase', level: 90 },
+        { name: 'supabase', level: 88 },
+        { name: 'MongoDB', level: 85 },
       ]
     },
     {
       title: 'DevOps & Tooling',
       skills: [
-        { name: 'Docker / Containers', level: 84 },
-        { name: 'GCP (Cloud Run / GKE)', level: 85 },
-        { name: 'AWS (S3 / Lambda)', level: 80 },
-        { name: 'Git & CI/CD Pipelines', level: 90 },
+        { name: 'VS Code', level: 100 },
+        { name: 'GitHub', level: 85 },
+        { name: 'VERCEL', level: 80 },
+        { name: 'netlify', level: 90 },
         { name: 'Vite / Webpack / Esbuild', level: 87 },
       ]
     }
