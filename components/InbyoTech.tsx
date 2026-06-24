@@ -4,32 +4,34 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { Network, Globe, Blocks, CodeXml, ChevronRight, Activity, Cpu, ArrowUpRight } from 'lucide-react';
 
+
 export default function InbyoTech() {
   const offerings = [
-    {
-      icon: <CodeXml className="w-6 h-6 text-indigo-600" />,
-      title: 'Digital Product Engineering',
-      description: 'We orchestrate end-to-end web architectures using highly polished React systems, Next.js, robust Node.js clusters, and secure serverless microservices.',
-      tags: ['SaaS', 'Fintech Dev', 'React SPAs']
-    },
-    {
-      icon: <Cpu className="w-6 h-6 text-sky-600" />,
-      title: 'Cognitive AI Pipelines',
-      description: 'Integrating industrial LLMs and agents (like Google Gemini) directly into production engines to automate manual workflows and supercharge products.',
-      tags: ['LangChain', 'Gemini SDK', 'Neural Automation']
-    },
-    {
-      icon: <Network className="w-6 h-6 text-emerald-600" />,
-      title: 'Cloud Infrastructure & DevOps',
-      description: 'Automated continuous integrations, load balancing, secure cloud hosting (Docker, Google Cloud, AWS), and zero-friction server orchestration.',
-      tags: ['Docker', 'GCP / AWS', 'Tailored SLA']
-    },
-    {
-      icon: <Blocks className="w-6 h-6 text-amber-600" />,
-      title: 'Immersive Interface Design',
-      description: 'Creating high-fidelity, highly polished, tactile interfaces with micro-interactions, 3D element rendering, and meticulous typographic rhythms.',
-      tags: ['Framer Motion', 'WebGL / Three.js', 'Tailwind v4']
-    },
+  {
+icon: <CodeXml className="w-6 h-6 text-indigo-600" />,
+title: 'Full-Stack Web Development',
+description: 'Building scalable web applications with React, Next.js, TypeScript, Node.js, Express.js, and modern database architectures.',
+tags: ['Next.js', 'TypeScript', 'Full-Stack Apps']
+},
+{
+icon: <Cpu className="w-6 h-6 text-sky-600" />,
+title: 'AI & Intelligent Systems',
+description: 'Integrating modern AI models, automation workflows, and intelligent assistants into real-world business solutions.',
+tags: ['Generative AI', 'AI Agents', 'Automation']
+},
+{
+icon: <Network className="w-6 h-6 text-emerald-600" />,
+title: 'Backend & Cloud Solutions',
+description: 'Developing secure APIs, database systems, authentication flows, and cloud-powered infrastructures for modern applications.',
+tags: ['Node.js APIs', 'MongoDB & SQL', 'Supabase']
+},
+{
+icon: <Blocks className="w-6 h-6 text-amber-600" />,
+title: 'Modern UI Engineering',
+description: 'Crafting responsive, high-performance interfaces with Tailwind CSS, animations, and user-centered design principles.',
+tags: ['Tailwind CSS', 'Responsive Design', 'Interactive UI']
+}
+
   ];
 
   return (

@@ -9,50 +9,52 @@ import { useTheme } from '@/context/ThemeContext';
 export default function SelectedWorks() {
   const projects: Project[] = [
     {
-      id: '01',
-      title: 'Inorbits Engine',
-      subtitle: 'Real-time workflow orchestrator',
-      description: 'A robust, high-performance workspace helping teams sketch system workflows visually and compile them into automated, serverless actions via AI agents.',
-      role: 'Founder & Tech Lead',
-      tech: ['React 19', 'Express', 'WebSockets', 'Tailwind', 'Docker'],
-      image: 'https://picsum.photos/seed/inorbits/800/600',
-      github: 'https://github.com/inamalisoomro90/inorbits-engine',
-      link: 'https://inorbits.inbyotech.com', // EDIT HERE to permanently modify live deployment link in code
-      stats: [
-        { label: 'CONCURRENCY', value: '10K/s' },
-        { label: 'DEPLOY TIME', value: '<2s' }
-      ]
-    },
+id: '01',
+title: 'Darul Shifa Imam Khomeini Hospital',
+subtitle: 'Enterprise Healthcare Web Platform',
+description: 'Engineered a high-performance healthcare platform that strengthens the hospital’s digital presence, streamlines patient access to information, and showcases medical services through a modern, SEO-optimized architecture. Built with a focus on accessibility, trust, speed, and long-term scalability.',
+role: 'Founder, CEO & Lead Engineer',
+tech: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Supabase'],
+image: '/images/darulshifa.PNG',
+github: 'https://github.com/inamalisoomro90',
+link: 'https://darulshifaimamkhomeini.org',
+stats: [
+{ label: 'SEO SCORE', value: '98%' },
+{ label: 'LIGHTHOUSE', value: '95+' }
+]
+},
+
     {
-      id: '02',
-      title: 'OrbitAI Dashboard',
-      subtitle: 'Model monitoring & Playground',
-      description: 'An enterprise-grade platform crafted for debugging prompt pipelines, visualizing vector embeddings in 3D, and measuring actual inference latencies.',
-      role: 'Principal Architect',
-      tech: ['Next.js', 'Three.js', 'Node.js', 'Gemini SDK', 'GCP'],
-      image: 'https://picsum.photos/seed/orbitai/800/600',
-      github: 'https://github.com/inamalisoomro90/orbitai-dashboard',
-      link: 'https://orbitai.inbyotech.com', // EDIT HERE to permanently modify live deployment link in code
-      stats: [
-        { label: 'ACCURACY', value: '98.8%' },
-        { label: 'LLM SYNC', value: 'Instant' }
-      ]
-    },
-    {
-      id: '03',
-      title: 'Preadly Ledger',
-      subtitle: 'Minimal fintech wealth engine',
-      description: 'A luxury glassmorphic financial transaction tracker with secure double-entry ledgers, offering custom charts, real-time alerts, and multi-currency support.',
-      role: 'Core Backend Architect',
-      tech: ['TypeScript', 'Express', 'PostgreSQL', 'D3.js', 'Redis'],
-      image: 'https://picsum.photos/seed/preadly/800/600',
-      github: 'https://github.com/inamalisoomro90/preadly-ledger',
-      link: 'https://preadly.inbyotech.com', // EDIT HERE to permanently modify live deployment link in code
-      stats: [
-        { label: 'LEDGER SYNC', value: '0.8ms' },
-        { label: 'COMPLIANCE', value: 'SOC-2' }
-      ]
-    }
+id: '02',
+title: 'Green Tea',
+subtitle: 'Modern Tea Brand Website',
+description: 'Designed and developed a modern, visually engaging website for a premium tea brand, focusing on storytelling, product presentation, responsive design, and seamless user experience. The platform showcases products through elegant layouts, smooth interactions, and performance-optimized architecture.',
+role: 'Founder & Lead Developer',
+tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'Vercel'],
+image: '/images/greentea.png',
+github: 'https://github.com/inamalisoomro90',
+link: 'https://greenteademo.vercel.app',
+stats: [
+{ label: 'PERFORMANCE', value: '95+' },
+{ label: 'RESPONSIVE', value: '100%' }
+]
+},
+{
+id: '03',
+title: 'Higher Education Portal',
+subtitle: 'Digital Student Success Platform',
+description: 'Engineered an educational resource platform that empowers students to discover academic pathways, compare institutions, and access essential admission information through a modern, responsive, and user-friendly digital experience.',
+role: 'Founder, CEO & Lead Developer',
+tech: ['JavaScript', 'Bootstrap', 'Responsive Design', 'GitHub Pages', 'SEO'],
+image: '/images/balochistan.png',
+github: 'https://github.com/inamalisoomro90/higher-education',
+link: 'https://inamalisoomro.github.io/higher-education/',
+stats: [
+{ label: 'MOBILE READY', value: '100%' },
+{ label: 'LOAD SPEED', value: '<1s' }
+]
+}
+
   ];
 
   const [activeProject, setActiveProject] = useState<Project | null>(null);

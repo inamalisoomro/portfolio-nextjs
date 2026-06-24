@@ -22,7 +22,7 @@ export default function About() {
     {
       icon: <MapPin className="w-5 h-5 text-zinc-950" />,
       title: 'Location',
-      description: 'Operating globally, leveraging cloud workflows to serve clients across North America, Europe, and Asia.'
+      description: 'Pakistan, Balochistan Quetta'
     },
     {
       icon: <Award className="w-5 h-5 text-zinc-950" />,
