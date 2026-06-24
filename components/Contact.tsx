@@ -66,7 +66,7 @@ export default function Contact() {
                 <div>
                   <div className="text-[9px] font-mono text-zinc-500 dark:text-zinc-400 uppercase tracking-widest leading-none font-bold">DIRECT INQUIRIES</div>
                   <a href="mailto:inamalisoomro90@gmail.com" className="text-sm font-extrabold text-zinc-955 dark:text-white hover:underline mt-1.5 block">
-                    inamalisoomro90@gmail.com
+                  inamalisoomro90@gmail.com
                   </a>
                 </div>
               </div>
