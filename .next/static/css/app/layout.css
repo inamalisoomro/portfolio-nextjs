@@ -1613,22 +1613,6 @@
       }
     }
   }
-  .selection\:bg-zinc-900 {
-    & *::selection {
-      background-color: var(--color-zinc-900);
-    }
-    &::selection {
-      background-color: var(--color-zinc-900);
-    }
-  }
-  .selection\:text-white {
-    & *::selection {
-      color: var(--color-white);
-    }
-    &::selection {
-      color: var(--color-white);
-    }
-  }
   .hover\:border-zinc-300 {
     &:hover {
       @media (hover: hover) {
@@ -2108,11 +2092,6 @@
       --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
     }
   }
-  .dark\:text-\[\#F8F8F7\] {
-    &:where(.dark, .dark *) {
-      color: #F8F8F7;
-    }
-  }
   .dark\:text-indigo-400\/5 {
     &:where(.dark, .dark *) {
       color: color-mix(in srgb, oklch(67.3% 0.182 276.935) 5%, transparent);
@@ -2209,26 +2188,6 @@
         @media (hover: hover) {
           color: var(--color-zinc-950);
         }
-      }
-    }
-  }
-  .dark\:selection\:bg-zinc-100 {
-    &:where(.dark, .dark *) {
-      & *::selection {
-        background-color: var(--color-zinc-100);
-      }
-      &::selection {
-        background-color: var(--color-zinc-100);
-      }
-    }
-  }
-  .dark\:selection\:text-zinc-900 {
-    &:where(.dark, .dark *) {
-      & *::selection {
-        color: var(--color-zinc-900);
-      }
-      &::selection {
-        color: var(--color-zinc-900);
       }
     }
   }

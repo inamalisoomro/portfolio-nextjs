@@ -37,7 +37,8 @@ export const metadata: Metadata = {
     'Inam'
   ],
   alternates: {
-    canonical: '/',
+    canonical: 'https://inamalisoomro.dpdns.org',
+  languages: { 'en-US': 'https://inamalisoomro.dpdns.org' },
   },
   robots: {
     index: true,
